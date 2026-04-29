@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "PolicyShield",
+  "version": "1.0",
+  "description": "AI-powered legal policy scanner.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon48.png" 
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
