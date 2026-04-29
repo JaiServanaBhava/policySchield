@@ -40,8 +40,8 @@ This extension is built on **Chrome Manifest V3** with a focus on asynchronous m
 ---
 
 ## 👨‍💻 Developer Profile
-- **Lead Architect:** [Your Name]
-- **Academic Background:** Diploma Candidate (Batch of 2026), CBSE Graduate (Delhi)
+- **Lead Architect:** [Jai Servana Bhava
+- **Academic Background:** CBSE Graduate (Delhi)
 - **Primary Focus:** Python (Django), Android (Java/XML), and AI-Powered Static Analysis.
 - **Current Projects:** Kranti AI Ecosystem, Medical Store Management System.
 
