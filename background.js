@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = "AIzaSyAyaibat3atepsMVTHtj-64VIljbQkku88"; 
+const GEMINI_API_KEY = "ADD YOUR API KEY HERE"; 
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/${MODEL_NAME}:generateContent?key=${GEMINI_API_KEY}`;
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
